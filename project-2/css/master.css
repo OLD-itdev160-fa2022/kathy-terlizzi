@@ -1,0 +1,86 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../images/Snowing.gif');
+}
+
+@font-face{
+
+    font-family: 'alsscrp';
+    src: url(../fonts/alsscrp.ttf);
+}
+@font-face {
+    font-family:'Precious' ;
+    src: url(../fonts/Precious.ttf);
+}
+
+@font-face {
+    font-family:'GreatVibes-Regular';
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+#title{
+    text-align: center;
+    font-family: 'alsscrp', Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color:blanchedalmond;
+}
+
+#choices-container{
+    float: left;
+    margin-right: 40px;
+    color:blanchedalmond;
+
+}
+
+#enter-name-header{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#card-image{
+    float: left;
+    border: solid 2px black;
+    background-color: red;
+    background-image: "";
+    width: 600px;
+    height: 400px;
+    z-index:1000;
+    visibility: visible;
+}
+
+#input-name{
+    width: 200px;
+    float:left;
+
+}
+
+#greeting{
+    font-family: 'GreatVibes-Regular', papyrus, cursive, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;   
+    color: rgb(9, 165, 113);
+    font-weight: 585;
+    margin-top: 100px;
+    text-shadow: 1px 3px rgb(173, 16, 5);
+    
+}
+
+#userName{
+    font-family: 'alsscrp', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px chartreuse;
+    text-align: center;
+    color: rgb(15, 4, 4);
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+#snoopy{
+   float:left;
+   height: 50px;
+   width: 40px;
+   margin-left: 20px;
+   margin-top: 30px;
+}
